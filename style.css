@@ -1,0 +1,99 @@
+body{
+    height: 100vh;
+    background-color: rgb(255, 253, 250);
+    display: flex;
+    flex-direction: column;
+ 
+    margin: 20px 50px;
+ 
+}
+
+/*Tabs Css*/
+.tabs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabs button{
+    background-color: transparent;
+    border: none;
+    color:purple
+}
+
+
+/*Welcome CSS*/
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    margin: auto;
+
+    background-color: rgb(245, 245, 228);
+    border-radius: 30px;
+    padding: 40px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 20px -1px rgba(69,69,69,1);
+}
+
+.welcome button{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+}
+.welcome button:hover{
+    background-color: white;
+    color:black;
+    border:1px solid black;
+}
+
+
+/** QuizSection **/
+.quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    margin: auto;
+
+    background-color: rgb(245, 245, 228);
+    border-radius: 30px;
+    padding: 40px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 20px -1px rgba(69,69,69,1);
+}
+
+.quiz .options{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 180px;
+    padding: 5px;
+}
+.quiz .options button{
+padding: 5px;
+background-color:white;
+border: 1px solid black;
+}
+
+.quiz .options button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.quiz .result{
+    border-top: 1px solid black ;
+    width: 100%;
+    text-align: center;
+    padding: 6px;
+    margin-top: 40px;
+}
+.hide{
+    display: none;
+}
